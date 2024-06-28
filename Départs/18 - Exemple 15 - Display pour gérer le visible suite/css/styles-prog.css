@@ -1,0 +1,13 @@
+.perso {
+	display: none;
+}
+
+.angrybirds .perso.angrybirds {
+	display: block;
+}
+.starwars .perso.starwars {
+	display: block;
+}
+.supermario .perso.supermario {
+	display: block;
+}

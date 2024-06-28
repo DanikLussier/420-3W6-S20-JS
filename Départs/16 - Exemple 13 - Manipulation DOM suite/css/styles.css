@@ -1,0 +1,117 @@
+* {
+    border:0;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body {
+    background: black url(../images/background.jpg) center top no-repeat;
+}
+.wrapper {
+    position: relative;
+    width: fit-content;
+    margin: 30px auto 0 auto;
+    overflow: hidden;
+    padding: 0 10px;
+}
+.listes {
+    float: left;
+    padding: 30px;
+    width: 590px;
+    height: 950px;
+    border: 3px solid silver;
+    background-color: rgba(255, 255, 255, 0.85);
+    margin-bottom: 24px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.85);
+    -moz-box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.85);
+    -webkit-box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.85);
+    overflow: hidden;
+}
+ul {
+    float: left;
+    list-style: none;
+    margin: 0 30px;
+    min-height: 52px;
+    width: 202px;
+    border: 1px solid #333;
+    background-color: rgba(0, 0, 0, 0.75);
+    box-shadow: 4px 4px 4px rgba(75, 75, 75, 0.75);
+    -moz-box-shadow: 4px 4px 4px rgba(75, 75, 75, 0.75);
+    -webkit-box-shadow: 4px 4px 4px rgba(75, 75, 75, 0.75);
+}
+.instrument {
+    width: 200px;
+    height: 50px;
+    line-height: 40px;
+    padding: 5px 5px 5px 65px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    cursor:pointer;
+}
+.gauche .instrument.selection,
+.gauche .instrument:hover {
+    color: black;
+    background-color:white;
+}
+.instrument:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 5px;
+    left: 15px;
+    width: 40px;
+    height: 40px;
+    background: black url(../images/instruments.jpg) 0 0 no-repeat;
+    z-index: 100;
+}
+.accordeon:after {
+    background-position:-40px 0;
+}
+.bass:after {
+    background-position:-80px 0;
+}
+.batterie:after {
+    background-position:-120px 0;
+}
+.bongo:after {
+    background-position:-160px 0;
+}
+.clavecin:after {
+    background-position:-200px 0;
+}
+.guitare:after {
+    background-position:0 -40px;
+}
+.harmonica:after {
+    background-position:-40px -40px;
+}
+.harpe:after {
+    background-position:-80px -40px;
+}
+.maracas:after {
+    background-position:-120px -40px;
+}
+.piano:after {
+    background-position:-160px -40px;
+}
+.saxophone:after {
+    background-position:-200px -40px;
+}
+.synthetiseur:after {
+    background-position:0 -80px;
+}
+.tambourin:after {
+    background-position:-40px -80px;
+}
+.tuba:after {
+    background-position:-80px -80px;
+}
+.vibraphone:after {
+    background-position:-120px -80px;
+}
+.violon:after {
+    background-position:-160px -80px;
+}

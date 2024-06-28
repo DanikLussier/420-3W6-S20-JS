@@ -1,0 +1,83 @@
+* {
+	box-sizing:border-box;
+}
+body {
+	margin:0;
+	padding:0;
+	font-family:Arial; 
+}
+body {
+    background-color: white;
+}
+.wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 1400px;
+}
+.titre {
+    color: black;
+    font-size: 22px;
+    line-height: 65px;
+    text-align: center;
+    width: 100%;
+    margin:0;
+	font-weight: bold;
+}
+.content {
+    margin:0 auto;
+    padding: 25px;
+    width: 1400px;
+}
+.content > div {
+    float: left;
+    width: 100%;
+	margin:15px 0;
+}
+.view {
+	width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+.name {
+	width: 100%;
+    height: 160px;
+    font-size: 70px;
+    line-height: 160px;
+    text-align: center;
+	font-weight: bold;
+}
+.valname,
+.hex,
+.rgb {
+	float:left;
+	width: 180px;
+    height: 180px;
+    margin: 0 23px;
+    border: 1px solid black;
+    font-size: 80px;
+    line-height: 180px;
+    text-align: center;
+	font-weight: bold;
+	background-color: white;
+}
+.valname {
+	height: 50px;
+    margin: 0 15px;
+    border: 0;
+    font-size: 25px;
+    line-height: 50px;
+}
+.hex {
+	background-color: #EEEEEE;
+}
+.rgb-result,
+.hex-result {
+	width: 400px;
+    height: 180px;
+    border: 0;
+    font-size: 50px;
+    text-align: left;
+	padding:10px;
+}

@@ -1,0 +1,38 @@
+body.angrybirds .perso {
+    background-image: url(../images/angrybirds.png);
+}
+body.starwars .perso {
+    background-image: url(../images/starwars.png);
+}
+body.supermario .perso {
+    background-image: url(../images/supermario.png);
+}
+
+
+.perso1 {
+	background-position: 25% 0;
+}
+.perso2 {
+	background-position: 50% 0;
+}
+.perso3 {
+	background-position: 75% 0;
+}
+.perso4 {
+	background-position: 100% 0;
+}
+.perso5 {
+	background-position: 0 100%;
+}
+.perso6 {
+	background-position: 25% 100%;
+}
+.perso7 {
+	background-position: 50% 100%;
+}
+.perso8 {
+	background-position: 75% 100%;
+}
+.perso9 {
+	background-position: 100% 100%;
+}

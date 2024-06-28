@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+        <meta charset="utf-8">
+
+        <title>Théorie 01</title>
+		
+        <link rel="stylesheet" href="css/styles.css"/>
+		
+        <script type="text/javascript" src="js/script.js"></script>
+	</head>
+    <body>
+        <div class="wrapper">
+            <div class="content">
+                <div class=view-container" >
+					<div id="view" class="view" style="background-color:rgb(255,125,0);"></div>
+				</div>
+                <div class=name-container" >
+					<div id="colorname" class="name"></div>
+				</div>
+                <div class=valnames-container" >
+					<div id="nameR" class="valname">Rouge</div>
+					<div id="nameG" class="valname">Vert</div>
+					<div id="nameB" class="valname">Bleu</div>
+					<div id="nameA" class="valname">Opacité</div>
+				</div>
+                <div class=hex-container" >
+					<div id="hexR" class="hex"></div>
+					<div id="hexG" class="hex"></div>
+					<div id="hexB" class="hex"></div>
+					<div id="hexA" class="hex"></div>
+					<div id="hexresult" class="hex hex-result"></div>
+				</div>
+                <div class=rgb-container" >
+					<input type="number" min="0" max="255" id="r" class="rgb rgb-value" value="255"/>
+					<input type="number" min="0" max="255" id="g" class="rgb rgb-value" value="0"/>
+					<input type="number" min="0" max="255" id="b" class="rgb rgb-value" value="0"/>
+					<input type="text" id="a" class="rgb rgb-value" value=""/>
+					<div id="rgbresult" class="rgb rgb-result"></div>
+				</div>
+            </div>
+        </div>
+    </body>
+</html>

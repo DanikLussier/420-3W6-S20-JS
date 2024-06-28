@@ -1,0 +1,7 @@
+.selection {
+    background-color: rgba(30, 144, 255, 0.5);
+    border-color: rgb(30, 144, 255) !important;
+}
+.emphase {
+    border-color: red !important;
+}

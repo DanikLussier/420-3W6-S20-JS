@@ -1,0 +1,36 @@
+.selection {
+    background-color: rgba(30, 144, 255, 0.5);
+    border-color: rgb(144, 30, 255) !important;
+}
+.emphase {
+    border-color: rgb(30, 144, 255) !important;
+}
+
+
+.perso1 {
+	background-position: -200px 0;
+}
+.perso2 {
+	background-position: -400px 0;
+}
+.perso3 {
+	background-position: -600px 0;
+}
+.perso4 {
+	background-position: -800px 0;
+}
+.perso5 {
+	background-position: 0 -200px;
+}
+.perso6 {
+	background-position: -200px -200px;
+}
+.perso7 {
+	background-position: -400px -200px;
+}
+.perso8 {
+	background-position: -600px -200px;
+}
+.perso9 {
+	background-position: -800px -200px;
+}

@@ -1,0 +1,161 @@
+* {
+	box-sizing:border-box;
+}
+body {
+	margin:0;
+	padding:0;
+}
+body {
+    background-color: transparent;
+	background-position: center top;
+	background-repeat: no-repeat;
+}
+body.angrybirds {
+    background-image: url(../images/background_angrybirds.jpg);
+	background-color: #0e2012;
+}
+body.starwars {
+    background-image: url(../images/background_starwars.jpg);
+	background-color: #020202;
+}
+body.supermario {
+    background-image: url(../images/background_supermario.jpg);
+	background-color: #833302;
+}
+.wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 1000px;
+}
+.skins {
+    margin: 30px auto;
+    padding: 15px;
+    width: 752px;
+    height: 176px;
+	background-color:#ffffffB0;
+}
+.skin {
+	cursor: pointer;
+    float: left;
+    margin: 15px;
+    width: 208px;
+    height: 108px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+	background-position: 0 0;
+    background-size: 500% 100%;
+    background-image: url(../images/skins.png);
+}
+.skin.skin1 {
+	background-position: 25% 0;
+}
+.skin.skin2 {
+	background-position: 50% 0;
+}
+.skin.skin3 {
+	background-position: 75% 0;
+}
+.persos {
+    margin:0 auto;
+    padding: 15px;
+    width: 752px;
+}
+.perso {
+    float: left;
+    margin: 15px;
+    width: 200px;
+    height: 200px;
+	background-color:#ffffffB0;
+    background-repeat: no-repeat;
+	background-position: 0 0;
+    background-size: 600% 600%;
+}
+
+.perso {
+    background-image: url(../images/persos.png);
+}
+
+.angrybirds.perso1 {
+	background-position: 20% 0;
+}
+.angrybirds.perso2 {
+	background-position: 40% 0;
+}
+.angrybirds.perso3 {
+	background-position: 60% 0;
+}
+.angrybirds.perso4 {
+	background-position: 80% 0;
+}
+.angrybirds.perso5 {
+	background-position: 100% 0;
+}
+.angrybirds.perso6 {
+	background-position: 0 20%;
+}
+.angrybirds.perso7 {
+	background-position: 20% 20%;
+}
+.angrybirds.perso8 {
+	background-position: 40% 20%;
+}
+.angrybirds.perso9 {
+	background-position: 60% 20%;
+}
+
+.starwars.perso1 {
+	background-position: 80% 20%;
+}
+.starwars.perso2 {
+	background-position: 100% 20%;
+}
+.starwars.perso3 {
+	background-position: 0 40%;
+}
+.starwars.perso4 {
+	background-position: 20% 40%;
+}
+.starwars.perso5 {
+	background-position: 40% 40%;
+}
+.starwars.perso6 {
+	background-position: 60% 40%;
+}
+.starwars.perso7 {
+	background-position: 80% 40%;
+}
+.starwars.perso8 {
+	background-position: 100% 40%;
+}
+.starwars.perso9 {
+	background-position: 0 60%;
+}
+
+.supermario.perso1 {
+	background-position: 20% 60%;
+}
+.supermario.perso2 {
+	background-position: 40% 60%;
+}
+.supermario.perso3 {
+	background-position: 60% 60%;
+}
+.supermario.perso4 {
+	background-position: 80% 60%;
+}
+.supermario.perso5 {
+	background-position: 100% 60%;
+}
+.supermario.perso6 {
+	background-position: 0 80%;
+}
+.supermario.perso7 {
+	background-position: 20% 80%;
+}
+.supermario.perso8 {
+	background-position: 40% 80%;
+}
+.supermario.perso9 {
+	background-position: 60% 80%;
+}

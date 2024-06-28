@@ -1,0 +1,13 @@
+* {
+	box-sizing:border-box;
+}
+body {
+	margin:0;
+	padding:0;
+}
+.cible {
+    width:400px;
+    height:400px;
+    background:transparent url('../images/target.png') center center no-repeat;
+    margin:100px auto;
+}

@@ -1,0 +1,87 @@
+.perso {
+    background-image: url(../images/persos.png);
+}
+
+.angrybirds.perso1 {
+	background-position: 20% 0;
+}
+.angrybirds.perso2 {
+	background-position: 40% 0;
+}
+.angrybirds.perso3 {
+	background-position: 60% 0;
+}
+.angrybirds.perso4 {
+	background-position: 80% 0;
+}
+.angrybirds.perso5 {
+	background-position: 100% 0;
+}
+.angrybirds.perso6 {
+	background-position: 0 20%;
+}
+.angrybirds.perso7 {
+	background-position: 20% 20%;
+}
+.angrybirds.perso8 {
+	background-position: 40% 20%;
+}
+.angrybirds.perso9 {
+	background-position: 60% 20%;
+}
+
+.starwars.perso1 {
+	background-position: 80% 20%;
+}
+.starwars.perso2 {
+	background-position: 100% 20%;
+}
+.starwars.perso3 {
+	background-position: 0 40%;
+}
+.starwars.perso4 {
+	background-position: 20% 40%;
+}
+.starwars.perso5 {
+	background-position: 40% 40%;
+}
+.starwars.perso6 {
+	background-position: 60% 40%;
+}
+.starwars.perso7 {
+	background-position: 80% 40%;
+}
+.starwars.perso8 {
+	background-position: 100% 40%;
+}
+.starwars.perso9 {
+	background-position: 0 60%;
+}
+
+.supermario.perso1 {
+	background-position: 20% 60%;
+}
+.supermario.perso2 {
+	background-position: 40% 60%;
+}
+.supermario.perso3 {
+	background-position: 60% 60%;
+}
+.supermario.perso4 {
+	background-position: 80% 60%;
+}
+.supermario.perso5 {
+	background-position: 100% 60%;
+}
+.supermario.perso6 {
+	background-position: 0 80%;
+}
+.supermario.perso7 {
+	background-position: 20% 80%;
+}
+.supermario.perso8 {
+	background-position: 40% 80%;
+}
+.supermario.perso9 {
+	background-position: 60% 80%;
+}

@@ -1,0 +1,52 @@
+@font-face {
+    font-family:"Digital Counter 7";
+    src:url("digital_counter_7.eot?") 
+        format("eot"),url("fonts/digital_counter_7.woff") 
+        format("woff"),url("fonts/digital_counter_7.ttf") 
+        format("truetype"),url("fonts/digital_counter_7.svg#DigitalCounter7") 
+        format("svg");
+        font-weight:bold;
+        font-style:normal;
+}
+* {
+	box-sizing:border-box;
+}
+body {
+	margin:0;
+	padding:0;
+}
+.chrono {
+    width: 446px;
+    height: 500px;
+    background: transparent url('../images/chrono.jpg') center center no-repeat;
+    margin: 100px auto;
+    position: relative;
+}
+.bouton {
+    position: absolute;
+    top: 12px;
+    width: 96px;
+    height: 96px;
+    border: 1px solid transparent;
+    border-radius: 48px;
+    cursor:pointer;
+}
+.reset {
+    left: 45px;
+}
+.startStop {
+    left: 295px;
+}
+.temps {
+    position: absolute;
+    font-family: "Digital Counter 7";
+    left: 109px;
+    top: 178px;
+    width: 222px;
+    height: 109px;
+    line-height: 115px;
+    text-align: right;
+    padding: 0 20px;
+    font-weight: bold;
+    font-size: 75px;
+}

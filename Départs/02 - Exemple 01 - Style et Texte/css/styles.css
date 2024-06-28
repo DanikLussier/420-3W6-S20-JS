@@ -1,0 +1,31 @@
+* {
+	box-sizing:border-box;
+	border:0;
+	margin:0;
+	padding:0;
+}
+div {
+	position:fixed;
+	top: 0px;
+	width : 150px;
+	height: 150px;
+	margin : 20px;
+	border: 3px solid darkgreen;
+	background-color: lightblue;
+    line-height: 150px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+.bloc1 {
+	left:0px;
+}
+.bloc2 {
+	left:200px;
+}
+.bloc3 {
+	left:400px;
+}
+.bloc4 {
+	left:600px;
+}
