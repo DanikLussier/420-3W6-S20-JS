@@ -24,5 +24,5 @@ function clickSurTheme()
 	
 	body.classList.add(themeClique);
 	
-	
+	gTabPersos.forEach(perso => perso.style.display = (perso.classList.contains(themeClique) ? "" : "none"))
 }

@@ -13,5 +13,5 @@ function clickSurTheme()
 {
 	var themeClique = this.getAttribute('data-classe-theme');
 	
-	
+	body.classList.toggle(themeClique)
 }
